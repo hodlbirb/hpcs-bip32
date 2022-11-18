@@ -7,7 +7,7 @@ package mock_grpc
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	grpc "github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/grpc"
+	grpc "github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/grpc"
 	grpc0 "google.golang.org/grpc"
 	reflect "reflect"
 )

@@ -9,7 +9,7 @@ import (
 	_ "github.com/gogo/googleapis/google/api"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	ep11 "github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/ep11"
+	ep11 "github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/ep11"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

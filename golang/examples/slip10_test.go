@@ -16,9 +16,9 @@ import (
     yaml "gopkg.in/yaml.v2"
 
     "google.golang.org/grpc/credentials"
-	"github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/ep11"
-	pb "github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/grpc"
-	"github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/util"
+	"github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/ep11"
+	pb "github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/grpc"
+	"github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/util"
 	grpc "google.golang.org/grpc"
 )
 

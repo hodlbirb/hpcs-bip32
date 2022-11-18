@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/ep11"
-	pb "github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/grpc"
+	"github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/ep11"
+	pb "github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/grpc"
 	"google.golang.org/grpc/status"
 )
 
