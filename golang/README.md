@@ -1,25 +1,17 @@
 # Overview
 
 1. [Install Golang](https://golang.org/doc/install) and ensure that your cloned repository is in your GOPATH.
-2. Update the following information in the [examples/server_test.go](examples/server_test.go#L20) file.  
+2. Update the following information in the [examples/credential.yaml](examples/credential.yaml) file.  
 
-	*NOTE: This information can obtained by logging in to your IBM Cloud account and viewing your Hyper Protect Crypto Serverices (HPCS) instance and IAM information. See the [GREP11 API documentation](https://test.cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-grep11-api-ref) for more information about GREP11*.
 
-	```Golang
-	// The following IBM Cloud items need to be changed prior to running the sample program
-	const address = "<grep11_server_address>:<port>"
-
-	var callOpts = []grpc.DialOption{
-		grpc.WithTransportCredentials(credentials.NewTLS(&tls.Config{})),
-		grpc.WithPerRPCCredentials(&util.IAMPerRPCCredentials{
-			APIKey:   "<ibm_cloud_apikey>",
-			Endpoint: "<https://<iam_ibm_cloud_endpoint>",
-			Instance: "<hpcs_instance_id>",
-		}),
-	}
+	```
+	url: "<grep11 server url>"
+	cert_path: "<client certificate path>"
+	key_path: "<client key path>"
+	cacert_path: "ca certificate path"
 	```
 		
-3. `cd $GOPATH/src/github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples`
+3. `cd $GOPATH/src/github.com/hodlbirb/hpcs-bip32/golang/examples`
 4. Execute the examples by issuing the command: `go test -v`
 5. The sample program produces output similar to the following:
 
@@ -43,7 +35,7 @@
 	=== RUN   Example_tls
 	--- PASS: Example_tls (0.05s)
 	PASS
-	ok  	github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples	1.667s
+	ok  	github.com/hodlbirb/hpcs-bip32/golang/examples	1.667s
     ```
 
 ## General Function Call Workflow

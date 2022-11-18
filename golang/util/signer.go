@@ -14,8 +14,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/ep11"
-	pb "github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/grpc"
+	"github.com/hodlbirb/hpcs-bip32/golang/ep11"
+	pb "github.com/hodlbirb/hpcs-bip32/golang/grpc"
 )
 
 // EP11PrivateKey MUST implement crypto.Signer interface so that the crypt/tls package can use
@@ -80,3 +80,4 @@ func NewEP11Signer(cryptoClient pb.CryptoClient, privKeyBlob []byte, spki []byte
 	}
 	return priv, nil
 }
+
