@@ -11,7 +11,7 @@
 	cacert_path: "ca certificate path"
 	```
 		
-3. `cd $GOPATH/src/github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples`
+3. `cd $GOPATH/src/github.com/hodlbirb/hpcs-bip32/golang/examples`
 4. Execute the examples by issuing the command: `go test -v`
 5. The sample program produces output similar to the following:
 
@@ -35,7 +35,7 @@
 	=== RUN   Example_tls
 	--- PASS: Example_tls (0.05s)
 	PASS
-	ok  	github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples	1.667s
+	ok  	github.com/hodlbirb/hpcs-bip32/golang/examples	1.667s
     ```
 
 ## General Function Call Workflow

@@ -11,9 +11,9 @@ import (
     "crypto/tls"
     yaml "gopkg.in/yaml.v2"
 
-	"github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/ep11"
-	pb "github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/grpc"
-	"github.com/hodlbirb/ibm-cloud-hyperprotectcrypto/golang/util"
+	"github.com/hodlbirb/hpcs-bip32/golang/ep11"
+	pb "github.com/hodlbirb/hpcs-bip32/golang/grpc"
+	"github.com/hodlbirb/hpcs-bip32/golang/util"
 	"github.com/stretchr/testify/assert"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

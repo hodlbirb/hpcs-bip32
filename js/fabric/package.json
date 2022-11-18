@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibm-developer/ibm-cloud-hyperprotectcrypto.git"
+    "url": "git+https://github.com/hodlbirb/hpcs-bip32.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/issues"
+    "url": "https://github.com/hodlbirb/hpcs-bip32/issues"
   },
-  "homepage": "https://github.com/ibm-developer/ibm-cloud-hyperprotectcrypto#readme",
+  "homepage": "https://github.com/hodlbirb/hpcs-bip32#readme",
   "dependencies": {
     "async": "^3.1.0",
     "bn.js": "^5.0.0",
